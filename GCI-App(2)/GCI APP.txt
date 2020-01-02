@@ -15,33 +15,29 @@ LENGTH:
    1 centimeter = 10 milimeter
    1 meter = 100 centimeter
    1 kilometer = 1000 meter
-   1 inch = 2.54 centimeter
-   1 feet = 30.48 centimeter
-   1 yard = 91.44 centimeter
-   1 mile = 160934.4 centimeter
 
 
 
 
 SPEED:
     cm/s = 1 cm/s
-    cm/min = 60 cm/s
-    cm/hr: 60*60 cm/s
-    m/s:1/100 cm/s
-    m/min:60/100 cm/s
-    m/hr: 60*60/100 cm/s
-    km/s:1/100000 cm/s
-    km/min:60/100000 cm/s
-    km/hr: 60*60/100000 cm/s
+    cm/min = 1/60 cm/s
+    cm/hr: 1/60 cm/min
+    m/s:360000 cm/hr
+    m/min:1/60 m/s
+    m/hr: 1/60 m/min
+    km/s:3600000 m/hr
+    km/min:1/60 km/s
+    km/hr: 1/60 km/min
 
 
 TIME:
     second = 1 second
     minute = 60 second
-    hour = 60*60 second
-    day = 24*60*60 second
-    week = 7*24*60*60 second
-    year = 365*24*60*60 second
+    hour = 60 mimnute
+    day = 24 hour
+    week = 7 day
+    year = 52 week
 
 
 
